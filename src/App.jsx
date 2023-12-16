@@ -1,15 +1,21 @@
 import "./App.css";
+import Content from "./components/Content";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Lorem</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet saepe
-        obcaecati dolores similique voluptatum a error nulla ipsa, eaque
-        blanditiis commodi mollitia beatae iste ratione labore omnis, iusto
-        aliquam minus?
-      </p>
+    <div>
+      <Content
+        title={"Lorem"}
+        description={
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, molestiae dolor? Culpa, veritatis illo sequi eligendi dolorem rem magnam expedita sit, necessitatibus veniam quae. Recusandae dolorem laboriosam illum in dolore."
+        }
+      />
+      <Content
+        title={"ipsum"}
+        description={
+          "OUI Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, molestiae dolor? Culpa, veritatis illo sequi eligendi dolorem rem magnam expedita sit, necessitatibus veniam quae. Recusandae dolorem laboriosam illum in dolore."
+        }
+      />
     </div>
   );
 }
