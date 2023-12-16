@@ -1,0 +1,16 @@
+.App {
+  height: 300px;
+  width: 500px;
+  background-color: #c4c4c4;
+  padding: 20px;
+}
+.App h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+.App p {
+  font-size: 25px;
+  width: 500px;
+}
